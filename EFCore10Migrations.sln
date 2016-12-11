@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EFCore10Migrations", "src\EFCore10Migrations\EFCore10Migrations.xproj", "{62A55F62-710D-4B56-B9F8-80AEBB4B091F}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EFCore10Migrations.Data", "src\EFCore10Migrations.Data\EFCore10Migrations.Data.xproj", "{24607CDC-14CB-416B-A0D8-1B873E1A566E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{62A55F62-710D-4B56-B9F8-80AEBB4B091F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A55F62-710D-4B56-B9F8-80AEBB4B091F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A55F62-710D-4B56-B9F8-80AEBB4B091F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24607CDC-14CB-416B-A0D8-1B873E1A566E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24607CDC-14CB-416B-A0D8-1B873E1A566E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24607CDC-14CB-416B-A0D8-1B873E1A566E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24607CDC-14CB-416B-A0D8-1B873E1A566E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{62A55F62-710D-4B56-B9F8-80AEBB4B091F} = {E6C79C49-B643-4AEF-93FA-5F7437315FC7}
+		{24607CDC-14CB-416B-A0D8-1B873E1A566E} = {E6C79C49-B643-4AEF-93FA-5F7437315FC7}
 	EndGlobalSection
 EndGlobal
